@@ -1,0 +1,20 @@
+.root{
+/* comentario */
+-fx-background-color: lightblue;
+-fx-font-size: 16;
+}
+
+.button{
+/* comentario */
+}
+
+.button:hover{
+	/* comentario */
+	-fx-background-color: lightGreen;
+	
+}
+
+.label{
+/* comentario */
+	
+}
