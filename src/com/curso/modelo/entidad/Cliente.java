@@ -19,9 +19,7 @@ public class Cliente {
 	
 	@Override
 	public String toString() {
-		return "Cliente [id=" + id + ", nombre=" + nombre + ", direccion="
-				+ direccion + ", telefono=" + telefono + ", toString()="
-				+ super.toString() + "]";
+		return nombre;
 	}
 
 	public Integer getId() {

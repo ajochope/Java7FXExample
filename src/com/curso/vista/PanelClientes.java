@@ -67,6 +67,7 @@ public class PanelClientes extends BorderPane {
 		botonera = new FlowPane();
 		botonera.setAlignment(Pos.CENTER);
 		botonera.setHgap(5);
+		botonera.setPadding(new Insets(25,25,25,25));
 
 		btnInsertar = new Button("Insertar");
 		// OnAction es el evento pulsar un boton
@@ -238,8 +239,7 @@ public class PanelClientes extends BorderPane {
 		// para que reaccione dinamicamente a los cambios
 		// data from DAO are List with ObservableList change this data type
 		// 
-		ObservableList<Cliente> clientesObs = FXCollections
-				.observableArrayList(clientes);
+		ObservableList<Cliente> clientesObs = FXCollections.observableArrayList(clientes);
 		tablaClientes.setItems(clientesObs);
 
 	}

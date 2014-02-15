@@ -31,7 +31,7 @@ public class BarraMenu extends MenuBar{
 	private void inicializarMapa() {
 		paneles = new HashMap<String, Pane>();
 		paneles.put("panelClientes", new PanelClientes());
-		paneles.put("panelPedidos", new PanelPedidos());
+		paneles.put("panelPedidos", new PanelFormularioPedidos());
 	}
 
 
